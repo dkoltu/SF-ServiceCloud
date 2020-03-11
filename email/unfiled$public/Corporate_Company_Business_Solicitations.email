@@ -1,0 +1,36 @@
+{!Case.Brand_Logo__c}
+
+
+Dear {!Case.Dear_Valued_Customer__c},
+
+Thank you for your interest in {!Case.Brand__c}.
+
+Your inquiry has reached Customer Service for our company operated retail stores in the United States and Canada.
+
+Business requests are not accepted via email. Business inquiries are accepted at the corporate address referenced below.
+
+PVH Corp.
+200 Madison Avenue
+New York, New York 10016
+212-381-3500
+
+Calvin Klein
+205 West 39th Street
+New York, NY 10018
+
+Tommy Hilfiger
+285 Madison Avenue
+New York, NY 10017
+
+Speedo USA
+6251 Katella Ave
+Cypress, CA 90630
+
+Please note, Customer Service will be unable to provide any further contact information.
+
+Thank you for contacting {!Case.Brand__c}.
+
+Regards,
+
+{!User.Name}
+{!Case.Brand__c} Customer Service

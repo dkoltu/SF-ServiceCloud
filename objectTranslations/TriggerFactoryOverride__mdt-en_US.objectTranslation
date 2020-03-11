@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Trigger Factory Override</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Trigger Factory Overrides</value>
+    </caseValues>
+    <fields>
+        <label><!-- Disable Trigger --></label>
+        <name>DisableTrigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a Profile Name (Case sensitive) &apos;|&apos; and Trigger Name
+Either name can be replaced by &apos;*&apos; instead of a specific value --></help>
+        <label><!-- Profile.Trigger --></label>
+        <name>ProfileTrigger__c</name>
+    </fields>
+    <layouts>
+        <layout>Trigger Factory Override Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,39 @@
+<apex:page controller="DisplayButton">
+  
+   <apex:form > 
+  
+    <apex:pageblock title="Reason Code">
+          <apex:pageblockButtons location="top">
+               <apex:commandButton value="Cororate" action="{!}" />
+               <apex:commandButton value="Loyalty" action="{!}"/>
+               <apex:commandButton value="Marketing" action="{!}"/>
+           </apex:pageblockButtons>
+      </apex:pageblock>
+
+        
+         <apex:pageblock title="Reason Code Details">
+         
+          <apex:pageblockButtons location="top">
+               <apex:commandButton value="Cororate" action="{!}"/>
+               <apex:commandButton value="Loyalty" action="{!}"/>
+               <apex:commandButton value="Marketing" action="{!}"/>
+           </apex:pageblockButtons>
+       
+        </apex:pageblock>
+        
+        
+         <apex:pageblock title="Reason Code Sub Details">
+         
+          <apex:pageblockButtons location="top">
+               <apex:commandButton value="Cororate" action="{!}"/>
+               <apex:commandButton value="Loyalty" action="{!}"/>
+               <apex:commandButton value="Marketing" action="{!}"/>
+           </apex:pageblockButtons>
+       
+        </apex:pageblock>
+        
+        
+    </apex:form>    
+  
+  
+</apex:page>

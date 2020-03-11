@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmbeddedServiceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <areGuestUsersAllowed>false</areGuestUsersAllowed>
+    <embeddedServiceCustomComponents>
+        <componentBundleType>AuraDefinitionBundle</componentBundleType>
+        <customComponent>pvhPrechatUISnapin</customComponent>
+        <customComponentType>LA_Prechat</customComponentType>
+    </embeddedServiceCustomComponents>
+    <embeddedServiceCustomComponents>
+        <componentBundleType>LightningComponentBundle</componentBundleType>
+        <customComponent>pvhChatMessageSnapinTommy</customComponent>
+        <customComponentType>LA_PlainTextChatMessage</customComponentType>
+    </embeddedServiceCustomComponents>
+    <embeddedServiceCustomLabels>
+        <customLabel>LA_Waiting_CloseConfirmation_WaitingStateBodyApology_04I1U000000PKQS_3271724</customLabel>
+        <labelKey>LA_Waiting_CloseConfirmation_WaitingStateBodyApology</labelKey>
+    </embeddedServiceCustomLabels>
+    <embeddedServiceCustomLabels>
+        <customLabel>LA_Waiting_CloseConfirmation_WaitingStateContinue_04I1U000000PKQS_4285505</customLabel>
+        <labelKey>LA_Waiting_CloseConfirmation_WaitingStateContinue</labelKey>
+    </embeddedServiceCustomLabels>
+    <embeddedServiceCustomLabels>
+        <customLabel>LA_Chat_CloseConfirmation_ChatStateEnd_04I1U000000PKQS_3004093</customLabel>
+        <labelKey>LA_Chat_CloseConfirmation_ChatStateEnd</labelKey>
+    </embeddedServiceCustomLabels>
+    <embeddedServiceCustomLabels>
+        <customLabel>LA_Waiting_CloseConfirmation_WaitingStateLeave_04I1U000000PKQS_9120561</customLabel>
+        <labelKey>LA_Waiting_CloseConfirmation_WaitingStateLeave</labelKey>
+    </embeddedServiceCustomLabels>
+    <embeddedServiceCustomLabels>
+        <customLabel>LA_Chat_CloseConfirmation_ChatStateBody_04I1U000000PKQS_2391618</customLabel>
+        <labelKey>LA_Chat_CloseConfirmation_ChatStateBody</labelKey>
+    </embeddedServiceCustomLabels>
+    <embeddedServiceCustomLabels>
+        <customLabel>LA_Waiting_Error_ErrorNoAgentBodyRequest_04I1U000000PKQS_3524465</customLabel>
+        <labelKey>LA_Waiting_Error_ErrorNoAgentBodyRequest</labelKey>
+    </embeddedServiceCustomLabels>
+    <embeddedServiceCustomLabels>
+        <customLabel>LA_Waiting_Error_ErrorNoAgentBodyApology_04I1U000000PKQS_8405278</customLabel>
+        <labelKey>LA_Waiting_Error_ErrorNoAgentBodyApology</labelKey>
+    </embeddedServiceCustomLabels>
+    <masterLabel>Tommy Prioritized Chat</masterLabel>
+    <shouldHideAuthDialog>false</shouldHideAuthDialog>
+    <site>Tommy_Hilfiger</site>
+</EmbeddedServiceConfig>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmbeddedServiceBranding xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contrastInvertedColor>#ffffff</contrastInvertedColor>
+    <contrastPrimaryColor>#00174f</contrastPrimaryColor>
+    <embeddedServiceConfig>Tommy_Prioritized_Chat</embeddedServiceConfig>
+    <font>FuturaStdBook</font>
+    <height>550</height>
+    <masterLabel>EmbeddedServiceBranding_Parent04I1U000000PKQSUA4_16fcef357e2</masterLabel>
+    <navBarColor>#00174f</navBarColor>
+    <primaryColor>#222222</primaryColor>
+    <secondaryColor>#00174f</secondaryColor>
+    <width>0</width>
+</EmbeddedServiceBranding>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>IRE StagingTable</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>IRE StagingTable</value>
+    </caseValues>
+    <fields>
+        <label><!-- FileName --></label>
+        <name>FileName__c</name>
+    </fields>
+    <fields>
+        <label><!-- IREDeactivationDate --></label>
+        <name>IREDeactivationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- IREReactivationDate --></label>
+        <name>IREReactivationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- MasterCustomerId --></label>
+        <name>MasterCustomerId__c</name>
+    </fields>
+    <fields>
+        <label><!-- SubscriberKey --></label>
+        <name>SubscriberKey__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

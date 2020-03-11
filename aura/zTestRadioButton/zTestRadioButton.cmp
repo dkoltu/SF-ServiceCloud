@@ -1,0 +1,20 @@
+<!--
+ - Component Created for testing radio button fucntionality
+ -->
+
+<aura:component description="zTestRadioButton" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >>
+        <aura:attribute name="options" type="List" default="[
+    {'label': 'RC1', 'value': 'option1'},
+    {'label': 'RC2', 'value': 'option2'},
+    {'label': 'RC3', 'value': 'option3'},
+    {'label': 'RC4', 'value': 'option4'}
+    ]"/>
+        <aura:attribute name="value" type="String" default=""/>
+
+        <lightning:radioGroup name="radioButtonGroupRequired"
+                              label="Radio Button Group Example"
+                              options="{! v.options }"
+                              value="{! v.value }"
+                              type="button"
+                              required="true"/>
+</aura:component>

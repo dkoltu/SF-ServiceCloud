@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Additional Email 1 --></label>
+        <name>Additional_Email_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Email 2 --></label>
+        <name>Additional_Email_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Email 3 --></label>
+        <name>Additional_Email_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Email 4 --></label>
+        <name>Additional_Email_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- BU --></label>
+        <name>BU__c</name>
+    </fields>
+    <fields>
+        <label><!-- BrandIdAPIValue --></label>
+        <name>BrandIdAPIValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand --></label>
+        <name>Brand_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Lookup Search --></label>
+        <name>Brand_Lookup_Search__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Name --></label>
+        <name>Brand__c</name>
+        <picklistValues>
+            <masterLabel>Bass</masterLabel>
+            <translation><!-- Bass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calvin Klein</masterLabel>
+            <translation><!-- Calvin Klein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heritage Ecom</masterLabel>
+            <translation><!-- Heritage Ecom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IZOD.com</masterLabel>
+            <translation><!-- IZOD.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Izod</masterLabel>
+            <translation><!-- Izod --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Brands</masterLabel>
+            <translation><!-- Partner Brands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Speedo</masterLabel>
+            <translation><!-- Speedo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Style Bureau</masterLabel>
+            <translation><!-- Style Bureau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tommy Hilfiger</masterLabel>
+            <translation><!-- Tommy Hilfiger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Van Heusen</masterLabel>
+            <translation><!-- Van Heusen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Van Heusen.com</masterLabel>
+            <translation><!-- Van Heusen.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warners.com</masterLabel>
+            <translation><!-- Warners.com --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BulkBuyerOld --></label>
+        <name>BulkBuyerOld__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bulk Buyer --></label>
+        <name>BulkBuyer__c</name>
+    </fields>
+    <fields>
+        <label><!-- CallOptinStatus --></label>
+        <name>CallOptinStatus__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Channel --></label>
+        <name>Channel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company Code --></label>
+        <name>Company_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact 18 Digit ID --></label>
+        <name>Contact_18_Digit_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Search Email --></label>
+        <name>Contact_Search_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of Capture --></label>
+        <name>CountryOfCapture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created By Method --></label>
+        <name>CreatedByMethod__c</name>
+    </fields>
+    <fields>
+        <label><!-- CustomerRequestDNMOld --></label>
+        <name>CustomerRequestDNMOld__c</name>
+    </fields>
+    <fields>
+        <label><!-- CustomerRequestDNM --></label>
+        <name>CustomerRequestDNM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Id --></label>
+        <name>Customer_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Of Do Not Direct Mail --></label>
+        <name>DateOfDoNotDirectMail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deceased --></label>
+        <name>Deceased__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decoy --></label>
+        <name>Decoy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Direct Mail Optin --></label>
+        <name>DirectMailOptin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Direct Mail Undeliverable --></label>
+        <name>DirectMailUndeliverable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Direct Mail Reason --></label>
+        <name>DoNotDirectMailReason__c</name>
+        <picklistValues>
+            <masterLabel>A - Email Address Only</masterLabel>
+            <translation><!-- A - Email Address Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HM</masterLabel>
+            <translation><!-- HM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HN</masterLabel>
+            <translation><!-- HN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HNS</masterLabel>
+            <translation><!-- HNS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HS</masterLabel>
+            <translation><!-- HS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HT</masterLabel>
+            <translation><!-- HT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HV</masterLabel>
+            <translation><!-- HV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HVS</masterLabel>
+            <translation><!-- HVS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M</masterLabel>
+            <translation><!-- M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation><!-- MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N - NCOA</masterLabel>
+            <translation><!-- N - NCOA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NHS</masterLabel>
+            <translation><!-- NHS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NS</masterLabel>
+            <translation><!-- NS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NT</masterLabel>
+            <translation><!-- NT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S - Standardization</masterLabel>
+            <translation><!-- S - Standardization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ST</masterLabel>
+            <translation><!-- ST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T - Store Address</masterLabel>
+            <translation><!-- T - Store Address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TS</masterLabel>
+            <translation><!-- TS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>V</masterLabel>
+            <translation><!-- V --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VS</masterLabel>
+            <translation><!-- VS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation><!-- VT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Do Not Sync with SFMC --></label>
+        <name>Do_Not_Sync_with_SFMC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Education --></label>
+        <name>Education__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Deliverability Status --></label>
+        <name>EmailDeliverabilityStatus__c</name>
+        <picklistValues>
+            <masterLabel>bounce</masterLabel>
+            <translation><!-- bounce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>deleted</masterLabel>
+            <translation><!-- deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>held</masterLabel>
+            <translation><!-- held --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>normal</masterLabel>
+            <translation><!-- normal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>unsub</masterLabel>
+            <translation><!-- unsub --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email Opt Down Date --></label>
+        <name>EmailOptDownDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Frequency --></label>
+        <name>EmailOptDownStatus__c</name>
+        <picklistValues>
+            <masterLabel>1 or 2 per week</masterLabel>
+            <translation><!-- 1 or 2 per week --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>max 2 per month</masterLabel>
+            <translation><!-- max 2 per month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>receive ALL</masterLabel>
+            <translation><!-- receive ALL --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email Opt-in Date --></label>
+        <name>EmailOptInDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Opt-in --></label>
+        <name>EmailOptInStatus__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y</masterLabel>
+            <translation><!-- Y --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email Opt-out Date --></label>
+        <name>EmailOptOutDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Opt Out Reason --></label>
+        <name>EmailOptOutReason__c</name>
+        <picklistValues>
+            <masterLabel>ECOA</masterLabel>
+            <translation><!-- ECOA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN - I am no longer interested in these emails</masterLabel>
+            <translation><!-- IN - I am no longer interested in these emails --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA - I receive too many emails</masterLabel>
+            <translation><!-- MA - I receive too many emails --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ML - I don’t remember signing up for this mailing list</masterLabel>
+            <translation><!-- ML - I don’t remember signing up for this mailing list --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OT - Other</masterLabel>
+            <translation><!-- OT - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RE - I don’t think the content is relevant</masterLabel>
+            <translation><!-- RE - I don’t think the content is relevant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SP - I think these emails are Spam</masterLabel>
+            <translation><!-- SP - I think these emails are Spam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPAM</masterLabel>
+            <translation><!-- SPAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPAM COMPL</masterLabel>
+            <translation><!-- SPAM COMPL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UNSUBSCRIB</masterLabel>
+            <translation><!-- UNSUBSCRIB --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- EmailOrigSource --></label>
+        <name>EmailOrigSource__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Undeliverable Date --></label>
+        <name>EmailUndeliverableDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Opt-in Date --></label>
+        <name>Email_Opt_in_Date_formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fraud --></label>
+        <name>Fraud__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+    </fields>
+    <fields>
+        <label><!-- HomeStore --></label>
+        <name>HomeStore__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>Language__c</name>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French</masterLabel>
+            <translation><!-- French --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Latest Source System --></label>
+        <name>Latest_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- LoyaltyFlag --></label>
+        <name>LoyaltyFlag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loyalty ID --></label>
+        <name>LoyaltyID__c</name>
+    </fields>
+    <fields>
+        <label><!-- LoyaltyMergeDate --></label>
+        <name>LoyaltyMergeDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loyalty Optin Date --></label>
+        <name>Loyalty_Optin_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loyalty Optin Date --></label>
+        <name>Loyalty_Optin_Date_form__c</name>
+    </fields>
+    <fields>
+        <label><!-- MailOptinStatus --></label>
+        <name>MailOptinStatus__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MobileID --></label>
+        <name>MobileID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Carrier --></label>
+        <name>Mobile_Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- PVHCreatedDate --></label>
+        <name>PVHCreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- PVHCreatedDate --></label>
+        <name>PVHCreatedDate_form__c</name>
+    </fields>
+    <fields>
+        <label><!-- PVHLastModifiedDate --></label>
+        <name>PVHLastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Possible Duplicate Record --></label>
+        <name>PossibleDuplicateRecord__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Types --></label>
+        <name>PrefCenterEmailTypes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Interests --></label>
+        <name>PrefCenterInterests__c</name>
+        <picklistValues>
+            <masterLabel>Anchor Stores</masterLabel>
+            <translation><!-- Anchor Stores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CK Collection</masterLabel>
+            <translation><!-- CK Collection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company Stores</masterLabel>
+            <translation><!-- Company Stores --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EComm Outlet</masterLabel>
+            <translation><!-- EComm Outlet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecomm - New</masterLabel>
+            <translation><!-- Ecomm - New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecomm Main Site</masterLabel>
+            <translation><!-- Ecomm Main Site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation><!-- Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International</masterLabel>
+            <translation><!-- International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kids</masterLabel>
+            <translation><!-- Kids --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loyalty</masterLabel>
+            <translation><!-- Loyalty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mens</masterLabel>
+            <translation><!-- Mens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Store</masterLabel>
+            <translation><!-- Retail Store --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tommy.com</masterLabel>
+            <translation><!-- Tommy.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Womens</masterLabel>
+            <translation><!-- Womens --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reverse Append --></label>
+        <name>ReverseAppend__c</name>
+    </fields>
+    <fields>
+        <label><!-- RingCentralChannel --></label>
+        <name>RingCentralChannel__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMSCustPreferences --></label>
+        <name>SMSCustPreferences__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMSLocale --></label>
+        <name>SMSLocale__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMSNumber --></label>
+        <name>SMSNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMS Opt-in Date --></label>
+        <name>SMSOptInDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMS Opt-out Date --></label>
+        <name>SMSOptOutDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMS Opt-in --></label>
+        <name>SMSOptinStatus__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P</masterLabel>
+            <translation><!-- P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y</masterLabel>
+            <translation><!-- Y --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SMSOrigSource --></label>
+        <name>SMSOrigSource__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMSResponseData --></label>
+        <name>SMSResponseData__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMSStatus --></label>
+        <name>SMSStatus__c</name>
+        <picklistValues>
+            <masterLabel>ACTIVE</masterLabel>
+            <translation><!-- ACTIVE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INACTIVE</masterLabel>
+            <translation><!-- INACTIVE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SMS Is Valid --></label>
+        <name>SMS_Is_Valid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salutation --></label>
+        <name>Salutation__c</name>
+    </fields>
+    <fields>
+        <label><!-- SignupStore --></label>
+        <name>SignupStore__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System --></label>
+        <name>Source_System__c</name>
+    </fields>
+    <fields>
+        <help><!-- Source from Outside Lists. --></help>
+        <label><!-- Source --></label>
+        <name>Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>ACTIVE</masterLabel>
+            <translation><!-- ACTIVE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INACTIVE</masterLabel>
+            <translation><!-- INACTIVE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Store Of Capture --></label>
+        <name>StoreOfCapture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store of Preference Language --></label>
+        <name>StoreOfPreferenceLanguage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Store Preference --></label>
+        <name>StorePreference__c</name>
+    </fields>
+    <fields>
+        <label><!-- System Type --></label>
+        <name>System_Type__c</name>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External - Managed By PVH</masterLabel>
+            <translation><!-- External - Managed By PVH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplemental</masterLabel>
+            <translation><!-- Supplemental --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tap --></label>
+        <name>Tap__c</name>
+    </fields>
+    <fields>
+        <label><!-- Undeliverable Flag --></label>
+        <name>Undeliverable_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- UniqueLoyaltyId --></label>
+        <name>UniqueLoyaltyId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unsubscribe Reason --></label>
+        <name>UnsubReason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Welcome Source --></label>
+        <name>WelcomeSource__c</name>
+        <picklistValues>
+            <masterLabel>1-Overlay</masterLabel>
+            <translation><!-- 1-Overlay --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2-Footer</masterLabel>
+            <translation><!-- 2-Footer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3-My Account</masterLabel>
+            <translation><!-- 3-My Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4-Guest Checkout</masterLabel>
+            <translation><!-- 4-Guest Checkout --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ZdLastModifiedDate --></label>
+        <name>ZdLastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZdMatchType --></label>
+        <name>ZdMatchType__c</name>
+        <picklistValues>
+            <masterLabel>MultipleMatchByEmailFirstName</masterLabel>
+            <translation><!-- MultipleMatchByEmailFirstName --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MultipleMatchByPhoneFirstName</masterLabel>
+            <translation><!-- MultipleMatchByPhoneFirstName --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New-NoEmailMatch</masterLabel>
+            <translation><!-- New-NoEmailMatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New-NoPhoneMatch</masterLabel>
+            <translation><!-- New-NoPhoneMatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New-noEmailorPhoneInSource</masterLabel>
+            <translation><!-- New-noEmailorPhoneInSource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UniqueMatchByEmail</masterLabel>
+            <translation><!-- UniqueMatchByEmail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UniqueMatchByEmailFirstName</masterLabel>
+            <translation><!-- UniqueMatchByEmailFirstName --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UniqueMatchByPhone</masterLabel>
+            <translation><!-- UniqueMatchByPhone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UniqueMatchByPhoneFirstName</masterLabel>
+            <translation><!-- UniqueMatchByPhoneFirstName --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ZdMiddleName --></label>
+        <name>ZdMiddleName__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZenDesk Other Address --></label>
+        <name>ZdOtherAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zendesk PVH User Id --></label>
+        <name>ZdPVHUserId__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZenDesk Possible Fraud --></label>
+        <name>ZdPossibleFraud__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZdProfExtId --></label>
+        <name>ZdProfExtId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zendesk T&amp;C User Id --></label>
+        <name>ZdTnCUserId__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZdUniqueMatch --></label>
+        <name>ZdUniqueMatch__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zeta Callout Response --></label>
+        <name>Zeta_Callout_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- fmlAccountId --></label>
+        <name>fmlAccountId__c</name>
+    </fields>
+    <fields>
+        <label><!-- fmlCreatedById --></label>
+        <name>fmlCreatedById__c</name>
+    </fields>
+    <fields>
+        <label><!-- fmlLastModifiedByName --></label>
+        <name>fmlLastModifiedByName__c</name>
+    </fields>
+    <fields>
+        <label><!-- fmlOwnerID --></label>
+        <name>fmlOwnerID__c</name>
+    </fields>
+    <fields>
+        <label><!-- fmlRecordTypeId --></label>
+        <name>fmlRecordTypeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- is Employee --></label>
+        <name>isEmployee__c</name>
+    </fields>
+    <fields>
+        <label><!-- tempEnableTriggeredSend --></label>
+        <name>tempEnableTriggeredSend__c</name>
+    </fields>
+    <layouts>
+        <layout>Contact Email Layout</layout>
+        <sections>
+            <label><!-- Subscription Information --></label>
+            <section>Subscription Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contact SMS Layout</layout>
+        <sections>
+            <label><!-- Subscription Information --></label>
+            <section>Subscription Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Activity --></label>
+        <name>Activity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Support Case --></label>
+        <name>Create_Support_Case</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Email --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update PVH Contact --></label>
+        <name>Update_PVH_Contact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Privacy Contact --></label>
+        <name>Update_Privacy_Contact</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- A Brand&apos;s Data Owner Responsible For Handling Privacy Requests --></description>
+        <label><!-- Data Owner --></label>
+        <name>Data_Owner</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Email --></label>
+        <name>Email</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SMSMobile --></label>
+        <name>SMSMobile</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Brand is required. --></errorMessage>
+        <name>Brand_Field_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

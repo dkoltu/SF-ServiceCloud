@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>benjamin.lawrence@salesforce.com</contactEmail>
+    <label>SFMC</label>
+    <oauthConfig>
+        <callbackUrl>https://test.salesforce.com</callbackUrl>
+        <consumerKey>3MVG9eQyYZ1h89HcTUYvgCd550hvFBpD7.sj2fLppqDdMWTbetcK6la0V4jB4t8qHAiYfpnvkRa.YOAG00JEG</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+</ConnectedApp>

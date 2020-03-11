@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>To store the access tokens returned by Tracker API auth call, along with the access keys generated within SFSC</description>
+    <fields>
+        <fullName>BrandId__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>BrandId</label>
+        <length>4</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>access_key__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>access key</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>access_token__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>access token</label>
+        <length>40</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>key_expires_at__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>key expires at</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>token_expires_at__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>token expires at</label>
+        <required>false</required>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>token_expires_in__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>token expires in</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>A1 TrackerAPI tokens</label>
+    <listViews>
+        <fullName>AllRecords</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>access_key__c</columns>
+        <columns>access_token__c</columns>
+        <columns>BrandId__c</columns>
+        <columns>key_expires_at__c</columns>
+        <columns>token_expires_at__c</columns>
+        <columns>token_expires_in__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>AllRecords</label>
+    </listViews>
+    <pluralLabel>A1 TrackerAPI tokens</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

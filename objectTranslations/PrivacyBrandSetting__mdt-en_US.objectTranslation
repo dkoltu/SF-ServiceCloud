@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Privacy Brand Setting</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Privacy Brand Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- URL for REST API Requests --></label>
+        <name>URL_for_REST_API_Requests__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OlgaStagingTable</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OlgaStagingTable</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active Subscription --></label>
+        <name>Active_Subscription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternate phone --></label>
+        <name>Alternate_phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- BrandId --></label>
+        <name>BrandId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- OlgaStagingTable (Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Name --></label>
+        <name>Customer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Details --></label>
+        <name>Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- MultiMatchedContactsData --></label>
+        <name>MultiMatchedContactsData__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other phone --></label>
+        <name>Other_phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System --></label>
+        <name>Source_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZdBrandName --></label>
+        <name>ZdBrandName__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZdMatchType --></label>
+        <name>ZdMatchType__c</name>
+        <picklistValues>
+            <masterLabel>MultipleMatchByEmailFirstName</masterLabel>
+            <translation><!-- MultipleMatchByEmailFirstName --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MultipleMatchByPhoneFirstName</masterLabel>
+            <translation><!-- MultipleMatchByPhoneFirstName --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New-NoEmailMatch</masterLabel>
+            <translation><!-- New-NoEmailMatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New-NoPhoneMatch</masterLabel>
+            <translation><!-- New-NoPhoneMatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New-noEmailorPhoneInSource</masterLabel>
+            <translation><!-- New-noEmailorPhoneInSource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NoMatchByEmailFirstName</masterLabel>
+            <translation><!-- NoMatchByEmailFirstName --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NoMatchByPhoneFirstName</masterLabel>
+            <translation><!-- NoMatchByPhoneFirstName --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UniqueMatchByEmail</masterLabel>
+            <translation><!-- UniqueMatchByEmail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UniqueMatchByEmailFirstName</masterLabel>
+            <translation><!-- UniqueMatchByEmailFirstName --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UniqueMatchByPhone</masterLabel>
+            <translation><!-- UniqueMatchByPhone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UniqueMatchByPhoneFirstName</masterLabel>
+            <translation><!-- UniqueMatchByPhoneFirstName --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ZdMultiMatchedContactIds --></label>
+        <name>ZdMultiMatchedContactIds__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Contact --></label>
+        <name>ZdNewContact__c</name>
+        <relationshipLabel><!-- OlgaStagingTable --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ZdPVHUserId --></label>
+        <name>ZdPVHUserId__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZdTnCUserId --></label>
+        <name>ZdTnCUserId__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZdUniqueMatchedContactId --></label>
+        <name>ZdUniqueMatchedContactId__c</name>
+    </fields>
+    <fields>
+        <label><!-- active subscription date --></label>
+        <name>active_subscription_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- alternate address --></label>
+        <name>alternate_address__c</name>
+    </fields>
+    <fields>
+        <label><!-- created_at --></label>
+        <name>created_at__c</name>
+    </fields>
+    <fields>
+        <label><!-- email --></label>
+        <name>email__c</name>
+    </fields>
+    <fields>
+        <label><!-- possible fraud --></label>
+        <name>possible_fraud__c</name>
+    </fields>
+    <fields>
+        <label><!-- updated_at --></label>
+        <name>updated_at__c</name>
+    </fields>
+    <layouts>
+        <layout>OlgaStagingTable Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

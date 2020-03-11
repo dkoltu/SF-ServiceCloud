@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Purpose of this MDT is to store the reward type vs reward description mapping per each brand.</description>
+    <fields>
+        <fullName>BrandId__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>BrandId</label>
+        <length>4</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Description</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RewardType__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>RewardType</label>
+        <length>5</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>A1_RewardTypes</label>
+    <listViews>
+        <fullName>AllRecords</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>BrandId__c</columns>
+        <columns>RewardType__c</columns>
+        <columns>Description__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>AllRecords</label>
+    </listViews>
+    <pluralLabel>A1_RewardTypes</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

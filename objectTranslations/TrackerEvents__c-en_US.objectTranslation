@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TrackerEvents</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TrackerEvents</value>
+    </caseValues>
+    <fields>
+        <label><!-- BrandId --></label>
+        <name>BrandId__c</name>
+    </fields>
+    <fields>
+        <label><!-- CustomerId --></label>
+        <name>CustomerId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>Customer__c</name>
+        <relationshipLabel><!-- TrackerEvents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DataSource --></label>
+        <name>DataSource__c</name>
+    </fields>
+    <fields>
+        <label><!-- EventDate --></label>
+        <name>EventDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- LoyaltyId --></label>
+        <name>LoyaltyId__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

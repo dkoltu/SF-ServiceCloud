@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Update_Comments_Field_for_Task</fullName>
+        <field>Internal_Comments__c</field>
+        <formula>IF(LEN(Description)&gt;255,LEFT(Description,252)&amp;"...",Description)</formula>
+        <name>Update Comments Field for Task</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Populate Task Internal Comments</fullName>
+        <actions>
+            <name>Update_Comments_Field_for_Task</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Task.Description</field>
+            <operation>notEqual</operation>
+            <value>Null</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

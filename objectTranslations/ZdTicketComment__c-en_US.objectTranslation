@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Zendesk Ticket Comments</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Zendesk Ticket Comments</value>
+    </caseValues>
+    <fields>
+        <label><!-- CommentBody --></label>
+        <name>CommentBody__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZdPVHCommentId --></label>
+        <name>ZdPVHCommentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZdPVHParentTicketId --></label>
+        <name>ZdPVHParentTicketId__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZdTnCCommentId --></label>
+        <name>ZdTnCCommentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZdTnCParentTicketId --></label>
+        <name>ZdTnCParentTicketId__c</name>
+    </fields>
+    <fields>
+        <label><!-- created_at --></label>
+        <name>created_at__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

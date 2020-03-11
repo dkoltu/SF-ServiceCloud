@@ -1,0 +1,59 @@
+<!--
+ - Created by dimitrisavelieff on 2020-01-22.
+ -->
+
+<!-- Reason Code Flow -->
+<template>
+    <lightning-card title="Reason Code Wizard"><br/>
+        <div class="slds-grid slds-wrap slds-gutters" style="margin-left:3%">
+            <template if:true={caseRecord.data}>
+                <div class="slds-col slds-size_3-of-3 slds0" >
+<!--                    <lightning-button-group>-->
+<!--                        <template for:each={reasonCodeOptions} for:item='option'>-->
+<!--                            <lightning-button key={option.value} label={option.label} class="reasonCodeButton slds-p-right_xx-small slds-m-bottom_xx-small"></lightning-button>-->
+<!--                        </template>-->
+<!--                    </lightning-button-group>-->
+                    <lightning-radio-group name="radioGroup"
+                                           label="Radio Group"
+                                           options={reasonCodeOptionsBG}
+                                           value={caseWrapper.fields.Reason_Code__c}
+                                           onchange={handleSetReasonCode}
+                                           type="button"></lightning-radio-group>
+                </div>
+                <div class="slds-col slds-size_1-of-3">
+                    <lightning-combobox label="Reason Code"
+                                        name="reasoncode"
+                                        options={reasonCodeOptions}
+                                        placeholder="--None--"
+                                        onchange={handleSetReasonCode}
+                                        value={caseWrapper.fields.Reason_Code__c}></lightning-combobox><br/>
+
+
+                </div>
+                <div class="slds-col slds-size_1-of-3">
+                        <lightning-combobox label="Reason Code Details"
+                                        name="rcdetails"
+                                        options={reasonCodeDetailOptions}
+                                        placeholder="--None--"
+                                        onchange={handleSetReasonDetail}
+                                        value={caseWrapper.fields.Reason_Code_Details__c}
+                    ></lightning-combobox><br/>
+
+                </div>
+                <div class="slds-col slds-size_1-of-3" if:true={fieldVisibility.SubDetails}>
+                    <lightning-combobox label="Reason Code Details"
+                                        name="rcdetails"
+                                        options={reasonCodeSubDetailOptions}
+                                        placeholder="--None--"
+                                        value={caseWrapper.fields.Reason_Sub_detail__c}
+                    ></lightning-combobox><br/>
+
+                </div>
+            </template>
+        </div><br/>
+
+        <div if:true={error}>
+            <p>{error}</p>
+        </div>
+    </lightning-card>
+</template>

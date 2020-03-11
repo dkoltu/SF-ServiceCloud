@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>LoyaltySettings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>LoyaltySettings</value>
+    </caseValues>
+    <fields>
+        <label><!-- BrandId --></label>
+        <name>BrandId__c</name>
+    </fields>
+    <fields>
+        <label><!-- EnableRewardsButton --></label>
+        <name>EnableRewardsButton__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enable Triggered Send --></label>
+        <name>EnableTriggeredSend__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsLoyaltyApplicable --></label>
+        <name>IsLoyaltyApplicable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Log Signup Activity --></label>
+        <name>LogSignupActivity__c</name>
+    </fields>
+    <fields>
+        <label><!-- LoyaltyPrefix --></label>
+        <name>LoyaltyPrefix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Brand --></label>
+        <name>Parent_Brand__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZetaGUID --></label>
+        <name>ZetaGUID__c</name>
+    </fields>
+    <fields>
+        <label><!-- chargeItKeyword --></label>
+        <name>chargeItKeyword__c</name>
+    </fields>
+    <fields>
+        <label><!-- preferenceCenterKeyword --></label>
+        <name>preferenceCenterKeyword__c</name>
+    </fields>
+    <fields>
+        <label><!-- shortCode --></label>
+        <name>shortCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- stopKeyword --></label>
+        <name>stopKeyword__c</name>
+    </fields>
+    <layouts>
+        <layout>LoyaltySettings Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CaseSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAutoProcUser>false</caseAutoProcUser>
+    <caseFeedItemSettings>
+        <characterLimit>400</characterLimit>
+        <displayFormat>Default</displayFormat>
+        <feedItemType>EmailMessageEvent</feedItemType>
+    </caseFeedItemSettings>
+    <caseFeedReadUnreadLtng>false</caseFeedReadUnreadLtng>
+    <caseMergeInLightning>false</caseMergeInLightning>
+    <closeCaseThroughStatusChange>true</closeCaseThroughStatusChange>
+    <defaultCaseFeedLayoutOn>false</defaultCaseFeedLayoutOn>
+    <defaultCaseOwner>sonasofiavanithaanto@pvh.com</defaultCaseOwner>
+    <defaultCaseOwnerType>User</defaultCaseOwnerType>
+    <defaultCaseUser>sonasofiavanithaanto@pvh.com</defaultCaseUser>
+    <emailActionDefaultsHandlerClass>EmailPublisherLoader</emailActionDefaultsHandlerClass>
+    <emailToCase>
+        <enableE2CAttachmentAsFile>false</enableE2CAttachmentAsFile>
+        <enableE2CSourceTracking>true</enableE2CSourceTracking>
+        <enableEmailToCase>true</enableEmailToCase>
+        <enableHtmlEmail>true</enableHtmlEmail>
+        <enableOnDemandEmailToCase>true</enableOnDemandEmailToCase>
+        <enableThreadIDInBody>true</enableThreadIDInBody>
+        <enableThreadIDInSubject>true</enableThreadIDInSubject>
+        <notifyOwnerOnNewCaseEmail>true</notifyOwnerOnNewCaseEmail>
+        <overEmailLimitAction>Bounce</overEmailLimitAction>
+        <preQuoteSignature>true</preQuoteSignature>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>pvhpreprod+ckprivacydev@gmail.com</emailAddress>
+            <emailServicesAddress>pvhpreprod+ckprivacydev@29jx2qh2iame79bdhep6f6ox6ev126nm06bs9o9qv9lpzyr6fm.8a-5fzzua2.cs45.case.sandbox.salesforce.com</emailServicesAddress>
+            <isVerified>true</isVerified>
+            <routingName>Calvin Klein Privacy Support Dev</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - 2</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>pvhpreprod+calvinkleincustomerservice-pvh@gmail.com</emailAddress>
+            <emailServicesAddress>pvhpreprod+calvinkleincustomerservice-pvh@g-1k0f07l9qhk1rmlomlf0i3zhhmmn6o8ajqgc94x2oxn3s51d9o.8a-5fzzua2.cs45.case.sandbox.salesforce.com</emailServicesAddress>
+            <isVerified>true</isVerified>
+            <routingName>Calvin Klein Retail Customer Service</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>pvhpreprod+tommyprivacydev@gmail.com</emailAddress>
+            <emailServicesAddress>pvhpreprod+tommyprivacydev@3pkqetpu5sn31qzm3mfsf7bqqb1rszvmdh3wlelqkv85uher6.8a-5fzzua2.cs45.case.sandbox.salesforce.com</emailServicesAddress>
+            <isVerified>true</isVerified>
+            <routingName>Tommy Privacy Support Dev</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <routingAddresses>
+            <addressType>EmailToCase</addressType>
+            <caseOrigin>Email - 11</caseOrigin>
+            <casePriority>Medium</casePriority>
+            <createTask>false</createTask>
+            <emailAddress>pvhpreprod+supportdev-trueandco@gmail.com</emailAddress>
+            <emailServicesAddress>pvhpreprod+supportdev-trueandco@1xctav1jf1sjmze4e5gkqec2gnqkww21tjzgyfyym0bz6r8eqo.8a-5fzzua2.cs45.case.sandbox.salesforce.com</emailServicesAddress>
+            <isVerified>true</isVerified>
+            <routingName>devtest t&amp;c</routingName>
+            <saveEmailHeaders>false</saveEmailHeaders>
+        </routingAddresses>
+        <unauthorizedSenderAction>Discard</unauthorizedSenderAction>
+    </emailToCase>
+    <enableCaseFeed>true</enableCaseFeed>
+    <enableCollapseEmailThread>true</enableCollapseEmailThread>
+    <enableDraftEmails>false</enableDraftEmails>
+    <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
+    <enableEmailActionDefaultsHandler>true</enableEmailActionDefaultsHandler>
+    <enableSuggestedArticlesApplication>false</enableSuggestedArticlesApplication>
+    <enableSuggestedArticlesCustomerPortal>false</enableSuggestedArticlesCustomerPortal>
+    <enableSuggestedArticlesPartnerPortal>false</enableSuggestedArticlesPartnerPortal>
+    <enableSuggestedSolutions>true</enableSuggestedSolutions>
+    <escalateCaseBefore>false</escalateCaseBefore>
+    <keepRecordTypeOnAssignmentRule>true</keepRecordTypeOnAssignmentRule>
+    <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
+    <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>
+    <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>
+    <notifyOwnerOnCaseOwnerChange>false</notifyOwnerOnCaseOwnerChange>
+    <showEmailAttachmentsInCaseAttachmentsRL>true</showEmailAttachmentsInCaseAttachmentsRL>
+    <showFewerCloseActions>false</showFewerCloseActions>
+    <systemUserEmail>hpang@00d1u000000xmv4uaa.com</systemUserEmail>
+    <useSystemEmailAddress>true</useSystemEmailAddress>
+    <useSystemUserAsDefaultCaseUser>false</useSystemUserAsDefaultCaseUser>
+    <webToCase>
+        <enableWebToCase>false</enableWebToCase>
+    </webToCase>
+</CaseSettings>

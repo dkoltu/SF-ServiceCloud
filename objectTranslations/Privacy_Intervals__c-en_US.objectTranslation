@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Privacy Intervals</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Privacy Intervals</value>
+    </caseValues>
+    <fields>
+        <label><!-- CSRReminderInterval --></label>
+        <name>CSRReminderInterval__c</name>
+    </fields>
+    <fields>
+        <label><!-- CaseEscalationTime --></label>
+        <name>CaseEscalationHours__c</name>
+    </fields>
+    <fields>
+        <label><!-- MaxAfterConfirm --></label>
+        <name>MaxAfterConfirm__c</name>
+    </fields>
+    <fields>
+        <label><!-- MaxBeforeConfirm --></label>
+        <name>MaxBeforeConfirm__c</name>
+    </fields>
+    <fields>
+        <label><!-- hardCloseHours --></label>
+        <name>hardCloseHours__c</name>
+    </fields>
+    <fields>
+        <label><!-- maxDataOwnerTime --></label>
+        <name>maxDataOwnerTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- maxStalledHours --></label>
+        <name>maxStalledHours__c</name>
+    </fields>
+    <fields>
+        <label><!-- reminderDataOwnerInterval --></label>
+        <name>reminderDataOwnerInterval__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

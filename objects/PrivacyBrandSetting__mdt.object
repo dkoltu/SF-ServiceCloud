@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>URL_for_REST_API_Requests__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>URL for REST API Requests</label>
+        <required>true</required>
+        <type>Url</type>
+    </fields>
+    <label>Privacy Brand Setting</label>
+    <pluralLabel>Privacy Brand Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

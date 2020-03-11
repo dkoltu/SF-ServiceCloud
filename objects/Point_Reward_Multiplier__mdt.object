@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Brand_ID__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Brand ID</label>
+        <length>3</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Point_Reward_Multiplier__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Point-Reward Multiplier</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Loyalty Point Conversion</label>
+    <listViews>
+        <fullName>all_fields</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>Brand_ID__c</columns>
+        <columns>Point_Reward_Multiplier__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>all fields</label>
+    </listViews>
+    <pluralLabel>Loyalty Point Conversions</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

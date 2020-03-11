@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>AccuralPeriod__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Name of accrual period. ex: "20190204-20200202"</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Accural Period</label>
+        <length>17</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>EndDate__c</fullName>
+        <description>day before the start date of next year.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>EndDate</label>
+        <required>true</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>StartDate__c</fullName>
+        <description>Start date of accrual period. 4th monday of the year.</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>StartDate</label>
+        <required>true</required>
+        <type>Date</type>
+    </fields>
+    <label>Accural Periods</label>
+    <listViews>
+        <fullName>all_fields</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>StartDate__c</columns>
+        <columns>EndDate__c</columns>
+        <columns>AccuralPeriod__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>all fields</label>
+    </listViews>
+    <pluralLabel>Accural Periods</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

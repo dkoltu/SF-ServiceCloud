@@ -1,0 +1,360 @@
+<!--
+ @Lightning Component:       PersonalDataRequestForm
+ @JIRA:        				 NASSC-98 Privacy (CCPA) Forms
+ @description: 				 Custom Lightning Component to show Privacy Form.
+ -->
+
+<aura:component
+  controller="PersonalDataFormApexController"
+  implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction"
+  access="global"
+>
+  <aura:registerEvent name="appBrandNameEvent" type="c:appBrandNameEvent" />
+  <!-- aura attributes-->
+  <aura:attribute
+    name="listControllingValues"
+    type="list"
+    default="[]"
+    description="to store controller field values"
+  />
+  <aura:attribute
+    name="listDependingValues"
+    type="list"
+    default="['--- None ---']"
+    description="to store dependent field values"
+  />
+  <aura:attribute
+    name="depnedentFieldMap"
+    type="map"
+    description="map to store dependent values with controlling value"
+  />
+  <aura:attribute name="bDisabledDependentFld" type="boolean" default="true" />
+
+  <aura:attribute
+    name="objDetail"
+    type="case"
+    default="{'sobjectType' : 'case'}"
+  />
+  <aura:attribute
+    name="controllingFieldAPI"
+    type="string"
+    default="Country_of_Residence__c"
+    description="store field API name of Controller field"
+  />
+  <aura:attribute
+    name="dependingFieldAPI"
+    type="string"
+    default="State_of_Residence__c"
+    description="store field API name of dependent field"
+  />
+
+  <!-- create 2 aura handler with waiting and donewaiting events-->
+  <aura:handler event="aura:waiting" action="{!c.showSpinner}" />
+  <aura:handler event="aura:doneWaiting" action="{!c.hideSpinner}" />
+  <aura:attribute name="Spinner" type="boolean" default="false" />
+
+  <aura:attribute name="brandLabel" type="String" default="None" />
+  <aura:attribute name="brandEmail" type="String" default="None" />
+  <aura:attribute name="brandPhone" type="String" default="None" />
+  <aura:attribute name="brandPrivacyPolicy" type="String" default="None" />
+  <aura:attribute name="brandOptOutInfo" type="String" default="None" />
+  <aura:attribute name="successMessage" type="String" />
+  <aura:attribute name="regards" type="String" />
+  <aura:attribute name="brandNames" type="String" />
+  <aura:attribute name="caseSourceCountry" type="String" />
+  <aura:attribute name="isFinished" type="boolean" default="false" />
+  <aura:attribute name="isStateVisible" type="boolean" default="false" />
+  <aura:attribute name="ticketid" type="String" />
+  <aura:attribute name="Subject" type="String" />
+  <aura:attribute
+    name="newCase"
+    type="Case"
+    default="{ 'sobjectType': 'Case',
+                             'Name': '',
+                             }"
+  />
+
+  <aura:attribute name="typeOfRequestList" type="String[]" />
+  <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+  <ltng:require styles="{!$Resource.multilineToastCSS}" />
+
+  <aura:if isTrue="{!v.brandNames=='2'}">
+    <ltng:require styles="{!$Resource.CKStyle}" />
+  </aura:if>
+  <aura:if isTrue="{!v.brandNames=='1'}">
+    <ltng:require styles="{!$Resource.tommyStyles}" />
+  </aura:if>
+  <aura:if isTrue="{!v.brandNames=='10'}">
+    <ltng:require styles="{!$Resource.OlgaStyle}" />
+  </aura:if>
+  <aura:if isTrue="{!v.brandNames=='4'}">
+    <ltng:require styles="{!$Resource.izodStyle}" />
+  </aura:if>
+  <aura:if isTrue="{!v.brandNames=='5'}">
+    <ltng:require styles="{!$Resource.VHStyle}" />
+  </aura:if>
+  <aura:if isTrue="{!v.brandNames=='84'}">
+    <ltng:require styles="{!$Resource.SBStyle}" />
+  </aura:if>
+  <aura:if isTrue="{!v.brandNames=='7'}">
+    <ltng:require styles="{!$Resource.SpeedoStyle}" />
+  </aura:if>
+  <aura:if isTrue="{!v.brandNames=='83'}">
+    <ltng:require styles="{!$Resource.WarnerStyle}" />
+  </aura:if>
+  <aura:if isTrue="{!v.brandNames=='11'}">
+    <ltng:require styles="{!$Resource.TCStyle}" />
+  </aura:if>
+
+  <!--loading spinner start... style=Brand Medium (blue dots)-->
+  <aura:if isTrue="{!v.Spinner}">
+    <div aura:id="spinnerId" class="slds-spinner_container">
+      <div
+        class="slds-spinner--brand  slds-spinner slds-spinner--large slds-is-relative"
+        role="alert"
+      >
+        <span class="slds-assistive-text">Loading</span>
+        <div class="slds-spinner__dot-a"></div>
+        <div class="slds-spinner__dot-b"></div>
+      </div>
+    </div>
+  </aura:if>
+  <!-- Loading spinner end-->
+
+  <aura:if isTrue="{!!v.isFinished}">
+    <div class="slds-grid slds-wrap slds-nowrap--large">
+      <div
+        class="slds-col--padded slds-size--12-of-12 slds-medium-size--6-of-12 slds-large-size--6-of-12 comm-layout-column"
+      >
+        <div class="slds-grid slds-wrap">
+          <div class="slds-col slds-size_1-of-8"></div>
+          <div class="slds-col slds-size_6-of-8">
+            <!-- <p style="background-color:green;">SECOND</p>-->
+
+            <lightning:select
+              class="theField"
+              required="true"
+              name="type"
+              label="Type of Request"
+              aura:id="typeOfRequest"
+              value="{!v.newCase.Type}"
+            >
+              <option value="">--- Select Option ---</option>
+              <aura:iteration items="{!v.typeOfRequestList}" var="val">
+                <option value="{!val}"> {!val}</option>
+              </aura:iteration>
+            </lightning:select>
+
+            <!-- Controlling Field -->
+            <lightning:select
+              name="controllerFld"
+              class="theField"
+              required="true"
+              value="{!v.newCase.Country_of_Residence__c}"
+              label="Country/Territory of Residence"
+              aura:id="country"
+              onchange="{!c.onControllerFieldChange}"
+            >
+              <option value="">--- Select Option ---</option>
+              <aura:iteration items="{!v.listControllingValues}" var="val">
+                <option value="{!val}">{!val}</option>
+              </aura:iteration>
+            </lightning:select>
+
+            <!--Dependent Field-->
+            <aura:if isTrue="{!v.isStateVisible}">
+              <lightning:select
+                name="dependentFld"
+                class="theField"
+                value="{!v.newCase.State_of_Residence__c}"
+                label="State of Residence"
+                aura:id="state"
+                disabled="{!v.bDisabledDependentFld}"
+                required="true"
+              >
+                <option value="">--- Select Option ---</option>
+                <aura:iteration items="{!v.listDependingValues}" var="val">
+                  <option value="{!val}">{!val}</option>
+                </aura:iteration>
+              </lightning:select>
+            </aura:if>
+
+            <lightning:input
+              class="theField"
+              required="true"
+              name="firstname"
+              aura:id="firstname"
+              label="First Name"
+              pattern="^[a-zA-Z]+([-' ][a-zA-Z]+)*$"
+              messageWhenPatternMismatch="Please Provide Valid First Name"
+              minlength="2"
+              messageWhenTooShort="First Name must be minimum 2 characters"
+            />
+            <lightning:input
+              class="theField"
+              required="true"
+              name="lastname"
+              aura:id="lastname"
+              label="Last Name"
+              pattern="^[a-zA-Z]+([-' ][a-zA-Z]+)*$"
+              messageWhenPatternMismatch="Please Provide Valid Last Name"
+              minlength="2"
+              messageWhenTooShort="Last Name must be minimum 2 characters"
+            />
+
+            <lightning:input
+              class="theField"
+              required="true"
+              type="email"
+              name="emailaddress"
+              aura:id="email"
+              label="Email Address associated with Account"
+              value="{!v.newCase.SuppliedEmail}"
+            />
+            <lightning:input
+              class="theField"
+              name="phonenumber"
+              aura:id="phone"
+              label="Phone Number associated with Account"
+              value="{!v.newCase.SuppliedPhone}"
+              pattern="^\+?(?:[0-9\-] ?){6,14}[0-9]$"
+              messageWhenPatternMismatch="You have entered invalid phone number"
+            />
+
+            <lightning:input
+              class="theField"
+              required="false"
+              name="loyaltyID"
+              aura:id="loyaltyID"
+              label="Loyalty ID"
+              value="{!v.newCase.Loyalty_Account_Number__c}"
+              pattern="^[a-zA-Z0-9]*$"
+              messageWhenPatternMismatch="You have entered an invalid Loyalty ID"
+            />
+
+            <div class="slds-align_absolute-center">
+              <lightning:button
+                class="theButton slds-m-top_large slds-p-left_large slds-p-right_large slds-p-top_xx-small slds-p-bottom_xx-small"
+                label="SUBMIT"
+                title="Brand action"
+                onclick="{! c.handleSendMessage }"
+              />
+            </div>
+          </div>
+          <div class="slds-col slds-size_1-of-8"></div>
+        </div>
+      </div>
+
+      <div
+        class="theField slds-col--padded slds-size--12-of-12 slds-medium-size--6-of-12 slds-large-size--6-of-12 comm-layout-column"
+      >
+        <div class="slds-col slds-size_1-of-8"></div>
+        <div class="slds-col slds-size_6-of-8">
+          <!-- <p style="background-color:blue;">THIRD</p> -->
+          <!-- adding community code here -->
+          <p
+            ><b><u>What does it mean?</u></b></p
+          >
+          <br />
+          <b>Unsubscribe</b>:<br />
+          <p align="justify"
+            >You will no longer receive email marketing communications from
+            <aura:unescapedHtml value="{!v.brandLabel}" />
+            at the email address you provide. You may continue to receive
+            non-marketing communications regarding your account, transactions,
+            or legal notices. If you no longer wish to receive physical mail,
+            please contact Customer Service at
+            <aura:if isTrue="{!v.brandNames=='5'}">
+              <lightning:formattedEmail value="{!v.brandEmail}" />.
+              <aura:set attribute="else">
+                <lightning:formattedPhone value="{!v.brandPhone}" />.
+              </aura:set>
+            </aura:if>
+          </p>
+
+          <br />
+          <br />
+          <b>Access My Data</b>:
+          <p align="justify"
+            >We will provide you with a summary of your Personal Data and an
+            explanation of how this data may be used. We will provide you with
+            Personal Data that is directly linked to the information you provide
+            on the form. Note: As a security measure, before we provide any
+            Personal Data to you, you must verify your identity by responding to
+            an automated email.
+          </p>
+
+          <br />
+          <br />
+          <b>Delete My Data</b>:
+          <p align="justify"
+            >We will delete all Personal Data directly linked with the account
+            information you provide on the form, that we do not need to keep for
+            legal, security, fraud prevention, troubleshooting, fulfillment,
+            financial, or tax purposes. This means that you will no longer have
+            a customer account for <aura:unescapedHtml value="{!v.brandLabel}" />, which contains any accrued loyalty points you
+            may have. If you would like to use any accrued points you may have,
+            please do so before submitting your delete request. After a deletion
+            request, you may continue to receive emails if you re-engage with
+            us, or if you have multiple emails on file. Before we delete your
+            Personal Data, you must verify your identity by responding to an
+            automated email. You can always shop our brand as a guest or create
+            a new account on our website, in which case you will be able to
+            accrue new loyalty points.
+          </p>
+          <aura:if isTrue="{!not(empty(v.brandOptOutInfo))}">
+            <br />
+            <br />
+            <b>Do Not Sell My Personal Information</b>:
+            <p align="justify"
+              >If you would like to opt-out of the sale of your personal
+              information, please click
+              <lightning:formattedUrl
+                value="{!v.brandOptOutInfo}"
+                label="here"
+                target="_blank"
+              />.
+            </p>
+          </aura:if>
+        </div>
+        <div class="slds-col slds-size_1-of-8"></div>
+      </div>
+    </div>
+    <aura:set attribute="else">
+      <div class="slds-grid slds-wrap slds-nowrap--large">
+        <div
+          class="slds-col--padded slds-size--12-of-12 slds-medium-size--12-of-12 slds-large-size--12-of-12 comm-layout-column"
+        >
+          <c:PersonalDataRequestResult
+            ticketid="{!v.ticketid}"
+            successMessage="{!v.successMessage}"
+            regards="{!v.regards}"
+            brandNames="{!brandNames}"
+          />
+        </div>
+      </div>
+    </aura:set>
+  </aura:if>
+  <div class="slds-grid slds-wrap slds-nowrap--large">
+    <div
+      class="slds-col--padded slds-size--12-of-12 slds-medium-size--12-of-12 slds-large-size--12-of-12 comm-layout-column"
+    >
+      <p align="center" class="slds-m-bottom_medium"
+        >Please see our
+        <lightning:formattedUrl
+          value="{!v.brandPrivacyPolicy}"
+          label="Privacy Policy"
+          target="_blank"
+        />
+        for more information on how we handle your Personal Data.</p
+      >
+      <p align="center"
+        >We strive to make our website content accessible and user-friendly. If
+        you are having difficulty viewing this form or navigating the site,
+        please call our Customer Service team toll-free at
+        <b><lightning:formattedPhone value="{!v.brandPhone}"/></b> and select
+        the Privacy Matters option when prompted.</p
+      >
+    </div>
+  </div>
+</aura:component>

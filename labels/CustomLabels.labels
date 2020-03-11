@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?><CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Case_Tab_is_Disabled</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Tab is Disabled</shortDescription>
+        <value>Case Status is currently Open. Please take action before closing out of the tab.</value>
+    </labels>
+    <labels>
+        <fullName>ChannelMessage_CA</fullName>
+        <categories>BrandForm</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ChannelMessage_CA</shortDescription>
+        <value>&lt;p align="justify"&gt;&lt;b&gt;Please Note: &lt;/b&gt;If you need to cancel or edit your online order, we offer a 30-minute grace period upon order confirmation. You can cancel your order on your order confirmation email or on your account page. Please note your order will be processed after 30 minutes. All attempts to cancel or edit an order after this period will not be validated. At this time, if you checkout as a Guest, you are unable to cancel or edit your order.&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>ChannelMessage_US</fullName>
+        <categories>BrandForm</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ChannelMessage_US</shortDescription>
+        <value>&lt;p align="justify"&gt;&lt;b&gt;Please Note: &lt;/b&gt;If you need to cancel or edit your online order, we offer a 30-minute grace period upon order confirmation. You can cancel your order on your order confirmation email or on your account page. Please note your order will be processed after 30 minutes. All attempts to cancel or edit an order after this period will not be validated.&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Event_Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event Description</shortDescription>
+        <value>C/S Issued Points</value>
+    </labels>
+    <labels>
+        <fullName>Event_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Event Type</shortDescription>
+        <value>Customer Service</value>
+    </labels>
+    <labels>
+        <fullName>GeneralCase_ClosedDays</fullName>
+        <categories>Configuration</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GeneralCase_ClosedDays</shortDescription>
+        <value>15</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_CloseConfirmation_ChatStateBody_04I1U000000PKQS_2391618</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_CloseConfirmation_ChatStateBody_04I1U000000PKQS_2391618</shortDescription>
+        <value>Thanks for chatting with us! Click Go Back for a transcript of the chat. Click EXIT CHAT to end the chat.</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_CloseConfirmation_ChatStateEnd_04I1U000000PKQS_3004093</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_CloseConfirmation_ChatStateEnd_04I1U000000PKQS_3004093</shortDescription>
+        <value>EXIT CHAT</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_CloseConfirmation_ChatStateEnd_04I5C000000Gmd4_8118361</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_CloseConfirmation_ChatStateEnd_04I5C000000Gmd4_8118361</shortDescription>
+        <value>EXIT CHAT</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_CloseConfirmation_WaitingStateBodyApology_04I1U000000PKQS_3271724</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_CloseConfirmation_WaitingStateBodyApology_04I1U000000PKQS_3271724</shortDescription>
+        <value>We're sorry to keep you waiting. Our chat team will be with you shortly. Please select 'go back' below so you don't lose your place in line.</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_CloseConfirmation_WaitingStateBodyApology_04I6C000000CaXu_6944171</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_CloseConfirmation_WaitingStateBodyApology_04I6C000000CaXu_6944171</shortDescription>
+        <value>We're sorry to keep you waiting. Our chat team will be with you shortly. Please stay so you don’t lose your place in line.</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_CloseConfirmation_WaitingStateContinue_04I1U000000PKQS_4285505</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_CloseConfirmation_WaitingStateContinue_04I1U000000PKQS_4285505</shortDescription>
+        <value>Go Back</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_CloseConfirmation_WaitingStateContinue_04I6C000000CaXu_1525090</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_CloseConfirmation_WaitingStateContinue_04I6C000000CaXu_1525090</shortDescription>
+        <value>EXIT CHAT</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_CloseConfirmation_WaitingStateLeave_04I1U000000PKQS_9120561</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_CloseConfirmation_WaitingStateLeave_04I1U000000PKQS_9120561</shortDescription>
+        <value>EXIT CHAT</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_Error_ErrorNoAgentBodyApology_04I1U000000PKQS_8405278</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_Error_ErrorNoAgentBodyApology_04I1U000000PKQS_8405278</shortDescription>
+        <value>Thank you for reaching out to us. There are currently no agents available to chat.</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_Error_ErrorNoAgentBodyRequest_04I1U000000PKQS_3524465</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_Error_ErrorNoAgentBodyRequest_04I1U000000PKQS_3524465</shortDescription>
+        <value>Please try again soon.</value>
+    </labels>
+    <labels>
+        <fullName>Label_SubmitButton</fullName>
+        <categories>BrandForm</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Label_SubmitButton</shortDescription>
+        <value>SUBMIT</value>
+    </labels>
+    <labels>
+        <fullName>Message_UploadFiles</fullName>
+        <categories>BrandForm</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Message_UploadFiles</shortDescription>
+        <value>If you have any attachments to add to your submission (such as photos, receipts, or screen shots), please attach up to 5 files so we can further assist you. Should a case require additional information, you may be asked to provide that at a later time.</value>
+    </labels>
+    <labels>
+        <fullName>PlaceHolderAccountName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PlaceHolderAccountName</shortDescription>
+        <value>Dummy Parent Account</value>
+    </labels>
+    <labels>
+        <fullName>Storenumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Storenumber</shortDescription>
+        <value>Please enter valid Store Number</value>
+    </labels>
+    <labels>
+        <fullName>prechatEmailInvalid</fullName>
+        <categories>prechat</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>prechatEmailInvalid</shortDescription>
+        <value>Invalid Email Address</value>
+    </labels>
+    <labels>
+        <fullName>prechatPhoneInvalid</fullName>
+        <categories>prechat</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>prechatPhoneInvalid</shortDescription>
+        <value>Invalid Phone Number</value>
+    </labels>
+    <labels>
+        <fullName>prechatRequiredField</fullName>
+        <categories>prechat</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>prechatRequiredField</shortDescription>
+        <value>This field is required.</value>
+    </labels>
+    <labels>
+        <fullName>saveChangesCaseDetail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>saveChangesCaseDetail</shortDescription>
+        <value>Please Save your changes prior to using any macros such as changing the Status or Reason Codes to avoid loss of data.</value>
+    </labels>
+</CustomLabels>

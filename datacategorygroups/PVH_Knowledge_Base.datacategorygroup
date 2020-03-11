@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Ordering &amp; Payment</label>
+                    <name>Ordering_Payment</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Returns &amp; Exchanges</label>
+                    <name>Returns_Exchanges</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Shipping &amp; Tracking</label>
+                    <name>Shipping_Tracking</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>About Try Before You Buy</label>
+                    <name>About_Try_Before_You_Buy</name>
+                </dataCategory>
+                <label>Ordering &amp; Returns</label>
+                <name>Ordering_Returns</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Sales &amp; Promotions</label>
+                    <name>Sales_Promotions</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Referral Program</label>
+                    <name>Referral_Program</name>
+                </dataCategory>
+                <label>Referrals, Sales &amp; Promotions</label>
+                <name>Referrals_Sales_Promotions</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Account Information</label>
+                    <name>Account_Information_Sub</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Personal Shop &amp; Recommendations</label>
+                    <name>Personal_Shop_Recommendations</name>
+                </dataCategory>
+                <label>Account Information</label>
+                <name>Account_Information</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Fit Basics</label>
+                    <name>Fit_Basics</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Products &amp; Availability</label>
+                    <name>Products_Availability</name>
+                </dataCategory>
+                <label>Fit &amp; Products</label>
+                <name>Fit_Products</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Bra Awareness</label>
+                    <name>Bra_Awareness</name>
+                </dataCategory>
+                <label>Lingerie Basics</label>
+                <name>Lingerie_Basics</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Change Your Catalog Mailing Preferences</label>
+                    <name>Change_Your_Catalog_Mailing_Preferences</name>
+                </dataCategory>
+                <label>Catalog Mailing List</label>
+                <name>Catalog_Mailing_List</name>
+            </dataCategory>
+            <label>External Knowledge Base (True&amp;Co)</label>
+            <name>External_Knowledge_Base_True_Co</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Contact List</label>
+                    <name>Contact_List</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Corporate Discounts &amp; Policies</label>
+                    <name>Corporate_Discounts_Policies</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Department Policies &amp; Procedures</label>
+                    <name>Department_Policies_Procedures</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>FAQ</label>
+                    <name>FAQ</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Fraud Management</label>
+                    <name>Fraud_Management</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Training Documents</label>
+                    <name>Training_Documents</name>
+                </dataCategory>
+                <label>PVH</label>
+                <name>PVH</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Contacts</label>
+                    <name>ContactsHBEcom</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Discounts</label>
+                    <name>DiscountsHBEcom</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Loyalty Program</label>
+                    <name>Loyalty_Program</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Marketing</label>
+                    <name>MarketingHBEcom</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Policies &amp; Procedures</label>
+                    <name>Policies_ProceduresHBEcom</name>
+                </dataCategory>
+                <label>Heritage Brands - Ecommerce</label>
+                <name>Heritage_Brands_Ecommerce</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Contacts</label>
+                    <name>ContactsHBRetail</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Discounts</label>
+                    <name>DiscountsHBRetail</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Loyalty Program</label>
+                    <name>Loyalty_ProgramHBRetail</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Marketing</label>
+                    <name>MarketingHBRetail</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Policies &amp; Procedures</label>
+                    <name>Policies_ProceduresHBRetail</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Product Information</label>
+                    <name>Product_InformationHBRetail</name>
+                </dataCategory>
+                <label>Heritage Brands - Retail</label>
+                <name>Heritage_Brands_Retail</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Canada</label>
+                    <name>Canada</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Contacts</label>
+                    <name>ContactsHBWholesale</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Marketing</label>
+                    <name>MarketingHBWholesale</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Policies &amp; Procedures</label>
+                    <name>Policies_ProceduresHBWholesale</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Refund Corporate Check</label>
+                    <name>Refund_Corporate_Check</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Product Information</label>
+                    <name>Product_InformationHBWholesale</name>
+                </dataCategory>
+                <label>Heritage Brands - Wholesale</label>
+                <name>Heritage_Brands_Wholesale</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Contacts</label>
+                    <name>ContactsSpeedo</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Discount</label>
+                    <name>Discount</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Marketing</label>
+                    <name>MarketingSpeedo</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Policies &amp; Procedures</label>
+                    <name>Policies_ProceduresSpeedo</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Product Information</label>
+                    <name>Product_InformationSpeedo</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Reports</label>
+                    <name>ReportsSpeedo</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Wholesale Policies &amp; Procedures</label>
+                    <name>Wholesale_Policies_Procedures</name>
+                </dataCategory>
+                <label>Speedo</label>
+                <name>Speedo</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Contacts</label>
+                    <name>ContactsTC</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Marketing</label>
+                    <name>MarketingTC</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Online Policies &amp; Procedures</label>
+                    <name>Online_Policies_Procedures</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Product Care</label>
+                    <name>Product_Care</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Product Information</label>
+                    <name>Product_InformationTC</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Reports</label>
+                    <name>ReportsTC</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Wholesale Policies &amp; Procedures</label>
+                    <name>Wholesale_Policies_ProceduresTC</name>
+                </dataCategory>
+                <label>True&amp;Co</label>
+                <name>True_Co</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Contacts</label>
+                    <name>Contacts</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Discounts</label>
+                    <name>Discounts</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Ecommerce Policies &amp; Procedures</label>
+                    <name>Ecommerce_Policies_Procedures</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Marketing</label>
+                    <name>Marketing</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Preferred Program</label>
+                    <name>Preferred_Program</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Product Information</label>
+                    <name>Product_Information</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Reports</label>
+                    <name>Reports</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Retail Policies &amp; Procedures</label>
+                    <name>Retail_Policies_Procedures</name>
+                </dataCategory>
+                <label>Calvin Klein Overall</label>
+                <name>Calvin_Klein_Overall</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Contacts</label>
+                    <name>ContactsCanada</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Discounts</label>
+                    <name>DiscountsCanada</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Marketing</label>
+                    <name>MarketingCanada</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Policies &amp; Procedures</label>
+                    <name>Policies_Procedures</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Preferred Program</label>
+                    <name>Preferred_ProgramCanada</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Product Information</label>
+                    <name>Product_InformationCanada</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Reports</label>
+                    <name>ReportsCanada</name>
+                </dataCategory>
+                <label>Calvin Klein Canada Ecommerce</label>
+                <name>Calvin_Klein_Canada_Ecommerce</name>
+            </dataCategory>
+            <label>Internal Knowledge Base</label>
+            <name>Internal_Knowledge_Base</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>PVH Knowledge Base</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

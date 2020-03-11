@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>UpdateEmailToAddressOnCase</fullName>
+        <field>emailToAddress__c</field>
+        <formula>ToAddress</formula>
+        <name>UpdateEmailToAddressOnCase</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <targetObject>ParentId</targetObject>
+    </fieldUpdates>
+    <rules>
+        <fullName>PopulateEmailToAddress</fullName>
+        <actions>
+            <name>UpdateEmailToAddressOnCase</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>EmailMessage.ToAddress</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>EmailMessage.Incoming</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.emailToAddress__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

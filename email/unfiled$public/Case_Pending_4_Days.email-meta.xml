@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Case Pending Reminder</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>PVH</letterhead>
+    <name>Case Pending 4 Days</name>
+    <style>freeForm</style>
+    <subject>Case Pending</subject>
+    <textOnly>Dear {!Case.Contact} ,
+
+This email is to remind you that request {!Case.CaseNumber} has been pending for 4 days and awaits your response. We look forward to assisting you and hope to hear from you soon.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

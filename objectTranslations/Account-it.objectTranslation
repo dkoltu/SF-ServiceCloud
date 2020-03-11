@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AccountEmail --></label>
+        <name>AccountEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Image Link --></label>
+        <name>Brand_Image_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Privacy Email --></label>
+        <name>Brand_Privacy_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Privacy Form Link --></label>
+        <name>Brand_Privacy_Form_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Privacy OWA Name --></label>
+        <name>Brand_Privacy_OWA_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- BulkBuyer --></label>
+        <name>BulkBuyer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cell Phone --></label>
+        <name>Cell_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Id --></label>
+        <name>Customer_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Request DNM --></label>
+        <name>Customer_Request_DNM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deactivate Loyalty --></label>
+        <name>Deactivate_Loyalty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deceased --></label>
+        <name>Deceased__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>FirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fraud --></label>
+        <name>Fraud__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F</masterLabel>
+            <translation><!-- F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M</masterLabel>
+            <translation><!-- M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U</masterLabel>
+            <translation><!-- U --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>LastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loyalty Account Deactivated --></label>
+        <name>Loyalty_Account_Deactivated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Opt In / Opt Out --></label>
+        <name>Marketing_Opt_In_Opt_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- PVHCreatedDate --></label>
+        <name>PVHCreatedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- PVHLastModifiedDate --></label>
+        <name>PVHLastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Privacy Escalation Email --></label>
+        <name>Privacy_Escalation_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate of Return (%) --></label>
+        <name>Rate_of_Return__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>ACTIVE</masterLabel>
+            <translation><!-- ACTIVE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INACTIVE</masterLabel>
+            <translation><!-- INACTIVE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ZdProfExtId --></label>
+        <name>ZdProfExtId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Employee --></label>
+        <name>isEmployee__c</name>
+    </fields>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Action --></label>
+        <name>Action</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Accounts for Brands --></description>
+        <label><!-- Brand --></label>
+        <name>Brand</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Customer --></label>
+        <name>Customer</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

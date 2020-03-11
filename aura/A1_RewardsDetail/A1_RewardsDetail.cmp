@@ -1,0 +1,12 @@
+<aura:component access="global">
+    <aura:attribute name="message" type="String" />
+    
+    <lightning:overlayLibrary aura:id="overlayRewardsDetail"/>
+    <div class="slds-align_absolute-center slds-m-bottom_large">
+        Transaction Details Not Found
+    </div>
+    
+    <div>
+        <lightning:button class="slds-align_absolute-center buttonClass" label="Cancel" onclick="{!c.handleCloseModal}"/>
+    </div>
+</aura:component>

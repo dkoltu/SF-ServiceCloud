@@ -1,0 +1,7 @@
+<!--
+ - Created by dimitrisavelieff on 2020-01-22.
+ -->
+
+<aura:component description="ReasonCodeFlowWrapper" implements="force:lightningQuickAction,force:hasRecordId">
+    <c:reasoncodeflow recordId="{!v.recordId}"/>
+</aura:component>

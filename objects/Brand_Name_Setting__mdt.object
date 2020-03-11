@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This custom metadata is created for mapping of Brand Name and Brand Label.  Use it where we want Brand Label corresponding to Brand Name</description>
+    <fields>
+        <fullName>Brand_Label__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Brand Label</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Brand_Name__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Brand Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Brand Name Setting</label>
+    <listViews>
+        <fullName>Show_All</fullName>
+        <columns>MasterLabel</columns>
+        <columns>DeveloperName</columns>
+        <columns>Brand_Name__c</columns>
+        <columns>Brand_Label__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Show All</label>
+    </listViews>
+    <pluralLabel>Brand Name Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

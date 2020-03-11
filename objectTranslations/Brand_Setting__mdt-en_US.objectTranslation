@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Brand Setting</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Brand Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Brand Email --></label>
+        <name>Brand_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Id --></label>
+        <name>Brand_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Phone --></label>
+        <name>Brand_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Community Id **Not Used --></label>
+        <name>Community_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Community Name --></label>
+        <name>Community_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inbound Brand Email --></label>
+        <name>Inbound_Brand_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outbound Privacy Email --></label>
+        <name>Outbound_Privacy_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Personal Info Link --></label>
+        <name>Personal_Info_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Privacy Auto Response Email Template --></label>
+        <name>Privacy_Auto_Response_Email_Template__c</name>
+    </fields>
+    <fields>
+        <label><!-- Privacy Email --></label>
+        <name>Privacy_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Privacy Policy --></label>
+        <name>Privacy_Policy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Name --></label>
+        <name>Survey_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>Brand Setting Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

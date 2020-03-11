@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Reason_Code_Product_Category__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Reason Code Product Category</label>
+        <referenceTo>Reason_Code_Product_Category__mdt</referenceTo>
+        <relationshipLabel>Reason Code Product Sub-Categories</relationshipLabel>
+        <relationshipName>Reason_Code_Product_Sub_Categories</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <label>Reason Code Product Sub-Category</label>
+    <pluralLabel>Reason Code Product Sub-Categories</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

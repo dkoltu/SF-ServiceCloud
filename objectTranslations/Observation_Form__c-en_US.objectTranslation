@@ -1,0 +1,1189 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Observation Form</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Observation Forms</value>
+    </caseValues>
+    <fields>
+        <label><!-- All Questions Posed by Customer Answered --></label>
+        <name>All_Questions__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Apologize to Customer --></label>
+        <name>Apologize_to_Customer__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Apology --></label>
+        <name>Apology__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- All Divisions. --></help>
+        <label><!-- Ask for Purchase Order Number --></label>
+        <name>Ask_for_Purchase_Order_Number__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Auto Fail --></label>
+        <name>Auto_Fail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Avoid Filler Words --></label>
+        <name>Avoid_Filler_Words__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Avoid Long Silences --></label>
+        <name>Avoid_Long_Silences__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check if answer is &quot;Yes.&quot; --></help>
+        <label><!-- Billing Address Not Verified --></label>
+        <name>Billing_Address_Not_Verified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand --></label>
+        <name>Brand__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Handling Skills Total % --></label>
+        <name>Call_Handling_Skills_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Channel --></label>
+        <name>Case_Channel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Intake Channel --></label>
+        <name>Case_Intake_Channel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Origin --></label>
+        <name>Case_Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Owner --></label>
+        <name>Case_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Observation Forms --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Closing Statement/Personalization of Brand Name --></help>
+        <label><!-- Closing Statement --></label>
+        <name>Closing_Statement__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Closing Total % (Chat) --></label>
+        <name>Closing_Total_Chat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closing Total % (Email) --></label>
+        <name>Closing_Total_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closing Total % (Phone) --></label>
+        <name>Closing_Total_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Correct Information --></label>
+        <name>Correct_Information__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check if answer is &quot;Yes.&quot; --></help>
+        <label><!-- Customer Inappropriate Handling --></label>
+        <name>Customer_InappropriateHandling__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Inquiry --></label>
+        <name>Customer_Inquiry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customization --></label>
+        <name>Customization__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Date CSR dealt with the customer. --></help>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Detailed Explanation of Next Steps And/Or Policies. --></help>
+        <label><!-- Detailed Explanation of Next Steps --></label>
+        <name>Detailed_Explanation__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Disclosing Customer Data --></label>
+        <name>Disclosing_Customer_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Channel --></label>
+        <name>Division__c</name>
+        <picklistValues>
+            <masterLabel>Ecommerce</masterLabel>
+            <translation><!-- Ecommerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation><!-- Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wholesale</masterLabel>
+            <translation><!-- Wholesale --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Empathy --></label>
+        <name>Empathy__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Etiquette Total % --></label>
+        <name>Etiquette_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Greeting Total % --></label>
+        <name>Greeting_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Handling Skills Total % (Chat) --></label>
+        <name>Handling_Skills_Total_Chat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Handling Skills Total % --></label>
+        <name>Handling_Skills_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hold Procedure --></label>
+        <name>Hold_Procedure__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Obtain Credit Card Information via Chat or E-mail. Check if answer is &quot;Yes.&quot; --></help>
+        <label><!-- Obtain Credit Card Information --></label>
+        <name>Obtain_Credit_Card_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Obtain Customer Name and Repeat Name --></label>
+        <name>Obtain_Customer_Name__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Offer Additional Assistance --></label>
+        <name>Offer_Additional_Assistance__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Offer/Ask to Assist --></label>
+        <name>Offer_Ask__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If applicable. --></help>
+        <label><!-- Offer to Follow Up w/ Customer by Phone --></label>
+        <name>Offer_to_Follow_Up__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Offer to Place Order --></label>
+        <name>Offer_to_Place_Order__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opening Total % (Chat) --></label>
+        <name>Opening_Total_Chat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opening Total % (Email) --></label>
+        <name>Opening_Total_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Management Total % --></label>
+        <name>Order_Management_Total__c</name>
+    </fields>
+    <fields>
+        <help><!-- I vs. We --></help>
+        <label><!-- Ownership Throughout Phone Call --></label>
+        <name>Ownership_Call__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ownership Throughout Email --></label>
+        <name>Ownership_Email__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- I vs. We --></help>
+        <label><!-- Ownership Throughout Chat --></label>
+        <name>Ownership__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Personalization --></label>
+        <name>Personalization__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Phone Etiquette Total % --></label>
+        <name>Phone_Etiquette_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Procedures Total % (Chat) --></label>
+        <name>Procedures_Total_Chat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Procedures Total % (Email) --></label>
+        <name>Procedures_Total_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Procedures Total % (Phone) --></label>
+        <name>Procedures_Total_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Positive Comments --></label>
+        <name>Product_Positive_Comments__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proper Disconnect --></label>
+        <name>Proper_Disconnect__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proper Formatting --></label>
+        <name>Proper_Formatting__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proper Grammar --></label>
+        <name>Proper_Grammar__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proper Greeting --></label>
+        <name>Proper_Greeting__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proper Greeting with Proper Brand --></label>
+        <name>Proper_Greeting_with__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Ecommerce calls. --></help>
+        <label><!-- Proper PVH Tool Comments or Queue --></label>
+        <name>Proper_PVH__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proper Resolution --></label>
+        <name>Proper_Resolution__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If applicable. --></help>
+        <label><!-- Proper Resolution and Provided Options --></label>
+        <name>Proper_Resolution_and_Provided_Options__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proper Signature --></label>
+        <name>Proper_Signature__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proper Spelling --></label>
+        <name>Proper_Spelling__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proper Spelling of Customer Name --></label>
+        <name>Proper_Spelling_of_Customer_Name__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Proper Spelling of Customer Name/Updating Name in Profile Field --></help>
+        <label><!-- Proper Spelling of Customer Name --></label>
+        <name>Proper_Spelling_of_Cuustomer_Name_Email__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Chat: Zendesk, Email: Additionally Updating Name in Profile Field. --></help>
+        <label><!-- Proper Ticket Coding --></label>
+        <name>Proper_Ticket_Coding__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Zendesk. --></help>
+        <label><!-- Proper Ticket Note Taking --></label>
+        <name>Proper_Ticket_Note_Taking__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proper Understanding of Issue --></label>
+        <name>Proper_Understanding_of_Issue__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Provide Correct Information --></label>
+        <name>Provide_Correct_Information__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Provided Options --></label>
+        <name>Provided_Options__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- State Brand Name --></label>
+        <name>State_Brand_Name__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- State Your Name --></label>
+        <name>State_Your_Name__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Strengths --></label>
+        <name>Strengths__c</name>
+    </fields>
+    <fields>
+        <label><!-- Structure Total % (Phone) --></label>
+        <name>Structure_Phone_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Structure Total % (Chat) --></label>
+        <name>Structure_Total_Chat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Structure Total % (Email) --></label>
+        <name>Structure_Total_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Talking Over Customer --></label>
+        <name>Talking_Over_Customer__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Thanking Customer --></label>
+        <name>Thanking_Customer__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ticket # --></label>
+        <name>Ticket__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tone and Warmth --></label>
+        <name>Tone_and_Warmth__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Chat Observation Score --></label>
+        <name>Total_Chat_Observation_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Email Observation Score --></label>
+        <name>Total_Email_Observation_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Phone Observation Score --></label>
+        <name>Total_Phone_Observation_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transition Statement --></label>
+        <name>Transition_Statement__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check if answer is &quot;Yes.&quot; --></help>
+        <label><!-- Use of Inappropriate Language --></label>
+        <name>Use_Of_Inappropriate_Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Use of Customer Name --></label>
+        <name>Use_of_Customer_Name__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Use of Positive Words --></label>
+        <name>Use_of_Positive_Words__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Verbal Nods --></label>
+        <name>Verbal_Nods__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pass</masterLabel>
+            <translation><!-- Pass --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check if answer is &quot;Yes.&quot; --></help>
+        <label><!-- Web ID Not Obtained With Order Placement --></label>
+        <name>Web_ID_Not_Obtained__c</name>
+    </fields>
+    <layouts>
+        <layout>Chat Observation Form Layout</layout>
+        <sections>
+            <label><!-- Case Observation Details --></label>
+            <section>Case Observation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Closing --></label>
+            <section>Closing</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Etiquette --></label>
+            <section>Etiquette</section>
+        </sections>
+        <sections>
+            <label><!-- Handling Skills --></label>
+            <section>Handling Skills</section>
+        </sections>
+        <sections>
+            <label><!-- Inappropriate Performance Results in Automatic Failure --></label>
+            <section>Inappropriate Performance Results in Automatic Failure</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Observation Form Details --></label>
+            <section>Observation Form Details</section>
+        </sections>
+        <sections>
+            <label><!-- Opening --></label>
+            <section>Opening</section>
+        </sections>
+        <sections>
+            <label><!-- Procedures --></label>
+            <section>Procedures</section>
+        </sections>
+        <sections>
+            <label><!-- Structure --></label>
+            <section>Structure</section>
+        </sections>
+        <sections>
+            <label><!-- Summary --></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Email &amp; Web Observation Form - True &amp; Co Layout</layout>
+        <sections>
+            <label><!-- Case Observation Details --></label>
+            <section>Case Observation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Closing --></label>
+            <section>Closing</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Etiquette --></label>
+            <section>Etiquette</section>
+        </sections>
+        <sections>
+            <label><!-- Handling Skills --></label>
+            <section>Handling Skills</section>
+        </sections>
+        <sections>
+            <label><!-- Inappropriate Performance Results in Automatic Failure --></label>
+            <section>Inappropriate Performance Results in Automatic Failure</section>
+        </sections>
+        <sections>
+            <label><!-- Observation Form Details --></label>
+            <section>Observation Form Details</section>
+        </sections>
+        <sections>
+            <label><!-- Opening --></label>
+            <section>Opening</section>
+        </sections>
+        <sections>
+            <label><!-- Procedures --></label>
+            <section>Procedures</section>
+        </sections>
+        <sections>
+            <label><!-- Structure --></label>
+            <section>Structure</section>
+        </sections>
+        <sections>
+            <label><!-- Summary --></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Email &amp; Web Observation Form Layout</layout>
+        <sections>
+            <label><!-- Case Observation Details --></label>
+            <section>Case Observation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Closing --></label>
+            <section>Closing</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Etiquette --></label>
+            <section>Etiquette</section>
+        </sections>
+        <sections>
+            <label><!-- Handling Skills --></label>
+            <section>Handling Skills</section>
+        </sections>
+        <sections>
+            <label><!-- Inappropriate Performance Results in Automatic Failure --></label>
+            <section>Inappropriate Performance Results in Automatic Failure</section>
+        </sections>
+        <sections>
+            <label><!-- Observation Form Details --></label>
+            <section>Observation Form Details</section>
+        </sections>
+        <sections>
+            <label><!-- Opening --></label>
+            <section>Opening</section>
+        </sections>
+        <sections>
+            <label><!-- Procedures --></label>
+            <section>Procedures</section>
+        </sections>
+        <sections>
+            <label><!-- Structure --></label>
+            <section>Structure</section>
+        </sections>
+        <sections>
+            <label><!-- Summary --></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Phone Observation Form Layout</layout>
+        <sections>
+            <label><!-- Call Handling Skills --></label>
+            <section>Call Handling Skills</section>
+        </sections>
+        <sections>
+            <label><!-- Case Observation Details --></label>
+            <section>Case Observation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Closing --></label>
+            <section>Closing</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Greeting --></label>
+            <section>Greeting</section>
+        </sections>
+        <sections>
+            <label><!-- Inappropriate Performance Results in Automatic Failure --></label>
+            <section>Inappropriate Performance Results in Automatic Failure</section>
+        </sections>
+        <sections>
+            <label><!-- Observation Form Details --></label>
+            <section>Observation Form Details</section>
+        </sections>
+        <sections>
+            <label><!-- Order Management --></label>
+            <section>Order Management</section>
+        </sections>
+        <sections>
+            <label><!-- Phone Etiquette --></label>
+            <section>Phone Etiquette</section>
+        </sections>
+        <sections>
+            <label><!-- Procedures --></label>
+            <section>Procedures</section>
+        </sections>
+        <sections>
+            <label><!-- Structure --></label>
+            <section>Structure</section>
+        </sections>
+        <sections>
+            <label><!-- Summary --></label>
+            <section>Summary</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Customer Service Chat Observation Form Scorecard --></description>
+        <label><!-- Chat Observation Form --></label>
+        <name>Chat_Observation_Form</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Customer Service Email Observation Form Scorecard and Summary. --></description>
+        <label><!-- Email &amp; Web Observation Form --></label>
+        <name>Email_Observation_Form</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- True &amp; Co - Customer Service Email Observation Form Scorecard and Summary. --></description>
+        <label><!-- Email &amp; Web Observation Form - True &amp; Co --></label>
+        <name>Email_Observation_Form_True_Co</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Customer Service Phone Observation Form Scorecard and Summary --></description>
+        <label><!-- Phone Observation Form --></label>
+        <name>Phone_Observation_Form</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

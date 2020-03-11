@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CallDetail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CallDetails</value>
+    </caseValues>
+    <fields>
+        <label><!-- CallComments --></label>
+        <name>CallComments__c</name>
+    </fields>
+    <fields>
+        <label><!-- CallDirection --></label>
+        <name>CallDirection__c</name>
+    </fields>
+    <fields>
+        <label><!-- CallDurationInSeconds --></label>
+        <name>CallDurationInSeconds__c</name>
+    </fields>
+    <fields>
+        <label><!-- CallEndTime --></label>
+        <name>CallEndTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- CallStartTime --></label>
+        <name>CallStartTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- CallDetails --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Channel --></label>
+        <name>Channel__c</name>
+    </fields>
+    <fields>
+        <label><!-- NumberDialed --></label>
+        <name>NumberDialed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- SkillName --></label>
+        <name>SkillName__c</name>
+    </fields>
+    <layouts>
+        <layout>CallDetail Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

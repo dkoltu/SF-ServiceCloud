@@ -1,0 +1,162 @@
+<aura:component controller="searchReasonCodeController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction">   
+       
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+    <!-- CREATE ATTRIBUTE/VARIABLE-->
+    <aura:attribute name="searchResult" type="List" description="use for store and display account list return from server"/>
+    <aura:attribute name="searchKeyword" type="String" description="use for store user search input"/>
+    <aura:attribute name="Message" type="boolean" default="false" description="use for display no record found message"/>
+    <aura:attribute name="TotalNumberOfRecord" type="integer" default="0" description="use for display Number of records"/>
+    <aura:attribute name="isReasonCode" type="boolean" default="false"/>
+ 
+    <aura:attribute name="recordId" type="string"/>
+    <aura:attribute name="picklistValues" type="List"/>
+    <aura:attribute name="pickListSelected" type="String"/>
+    
+    
+    <aura:attribute type="Case[]" name="caseList"/>
+    <aura:attribute name="mycolumns" type="List"/>
+    <aura:attribute name="selectedCases" type="List"/>
+
+       
+    
+    <aura:attribute name="caserecordId" type="String" />
+    <aura:attribute name="fields" type="String[]" default="['Date of Service Issue','Store Number','District Number','Update Account Info Reason']" />
+    
+    <!-- SHOW LOADING SPINNER--> 
+    <!--<lightning:spinner variant="brand" size="large" aura:id="Id_spinner" class="slds-hide" />-->
+    
+    
+    <article class="slds-card">
+    <div class="slds-m-around_medium">
+       <!-- SEARCH INPUT AND SEARCH BUTTON--> 
+        <lightning:layout>
+            <lightning:layoutItem size="3" padding="around-small">
+                <lightning:input value="{!v.searchKeyword}"
+                                 placeholder="search text.."
+                                 aura:id="searchField"
+                                 />
+            </lightning:layoutItem>
+             <div style="padding-top:23px;">
+            <lightning:layoutItem size="2" padding="around-small">
+                <lightning:button onclick="{!c.Search}"
+                                  variant="brand"
+                                  label="Search"
+                                  iconName="utility:search"/> 
+            </lightning:layoutItem>
+                  </div>
+        </lightning:layout>
+       
+        <!-- TOTAL RECORDS BADGES--> 
+        <div class="slds-m-around_x-small">
+            <!--<lightning:badge label="{!v.TotalNumberOfRecord}" />-->
+        </div>
+        
+        <!-- ERROR MESSAGE IF NOT RECORDS FOUND--> 
+        <aura:if isTrue="{!v.Message}">
+            <div class="slds-notify_container slds-is-relative">
+                <div class="slds-notify slds-notify_toast slds-theme_error" role="alert">
+                    <div class="slds-notify__content">
+                        <h2 class="slds-text-heading_small">No Reason Code Found...</h2>
+                    </div>
+                </div>
+            </div>
+        </aura:if>
+       
+         <!--<lightning:datatable data="{! v.caseList }" 
+                             columns="{! v.mycolumns }" 
+                             keyField="id"
+                             onrowselection="{!c.handleSelect}"/>
+        <br/> 
+       <center>
+            <lightning:button onclick="{!c.showSelectedName}" label="Update" variant="brand"/>
+        </center>-->
+       <!-- TABLE CONTENT-->
+      <aura:if isTrue="{!v.searchKeyword}">
+   
+        <table class="slds-table slds-table_bordered slds-table_cell-buffer" size="5">
+            <thead>
+                <tr class="slds-text-title_caps">
+                    <th scope="col">
+                        <div class="slds-truncate" title="Action"><h2>Action</h2></div>
+                    </th>
+                    <th scope="col">
+                        <div class="slds-truncate" title="Reason Code"><h2>Reason Code</h2></div>
+                    </th>
+                    <th scope="col">
+                        <div class="slds-truncate" title="Reason Code Details"><h2>Reason Code Details</h2></div>
+                    </th>
+                    <th scope="col">
+                        <div class="slds-truncate" title="Reason Code Sub-detail"><h2>Reason Code Sub-detail</h2></div>
+                    </th>
+                 
+                </tr>
+            </thead>
+            <tbody> 
+                <!--### display all records of searchResult attribute by aura:iteration ### -->
+               
+              <aura:iteration items="{!v.searchResult}" var="cse" indexVar="count">
+                    <tr>
+                        <!--<td>-->
+                           <!-- <lightning:button 
+                                  variant="brand"
+                                  label="+"
+                                  onclick="{!c.Onclick}"        
+                                  /> -->
+                        <!--</td>-->
+                     <td>
+                            <ui:inputCheckbox aura:id="checkBox" text="{!cse.Reason_Code__c}" change="{!c.Onclick}"/>
+                        </td>
+                        <td>
+                            <div class="slds-truncate">{!cse.Reason_Code__c}</div>
+                        </td>
+                        <td>
+                            <div class="slds-truncate">{!cse.Reason_Code_Details__c}</div>
+                        </td>
+                        <td>
+                            <div class="slds-truncate">{!cse.Reason_Sub_detail__c}</div>
+                        </td>
+                        
+                    </tr>
+                </aura:iteration>
+                
+                 <div class="slds-grid slds-grid--align-end slds-m-around--x-small">
+          <button class="slds-button slds-button--brand" onclick="{!c.addSelected}">Add Records</button>
+        </div>
+            </tbody>
+        </table>
+         </aura:if> 
+    </div>
+       <aura:if isTrue="{!v.searchKeyword}">
+           <div class="slds-p-bottom_large slds-p-left_large" style="width:500px">
+        <lightning:recordEditForm aura:id="recordEditForm"
+                                     recordId="5008A000005yZnzQAE"
+                                      objectApiName="Case">
+            <lightning:messages />
+            <lightning:inputField fieldName="Date of Service Issue" />
+            <lightning:inputField fieldName="Store Number" />
+            <lightning:inputField fieldName="District Number" />
+            <lightning:inputField fieldName="Update Account Info Reason" />
+            </lightning:recordEditForm>
+    </div>
+    <div class="slds-p-bottom_large slds-p-left_large" style="width:500px">
+        <lightning:recordEditForm recordId="5008A000005yZnzQAE" objectApiName="Case">
+        <div class="slds-box">
+            <lightning:outputField fieldName="ZdPVHDateofServiceIssue__c" />
+            <lightning:outputField fieldName="ZdPVHStoreNumber__c" />
+            <lightning:outputField fieldName="ZdPVHDistrictNumber__c" />
+            <lightning:outputField fieldName="ZdPVHUpdateAccountInfoReason__c" />
+            <lightning:button aura:id="submit" type="submit" label="Update Record" class="slds-m-bottom_medium" />
+
+        </div>
+    </lightning:recordEditForm>
+    </div>
+        
+        </aura:if>   
+    
+        
+        
+  
+   
+    </article>
+</aura:component>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>A1 C360API creds</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>A1 C360API creds</value>
+    </caseValues>
+    <fields>
+        <label><!-- Base64 --></label>
+        <name>Base64__c</name>
+    </fields>
+    <fields>
+        <label><!-- BrandId --></label>
+        <name>BrandId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Password --></label>
+        <name>Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- TenantId --></label>
+        <name>TenantId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Username --></label>
+        <name>Username__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

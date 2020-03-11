@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Prompt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>testq</masterLabel>
+    <promptVersions>
+        <actionButtonLabel>link</actionButtonLabel>
+        <actionButtonLink>https://www.salesforce.com</actionButtonLink>
+        <body>&lt;p&gt;RC Info test&lt;/p&gt;</body>
+        <customApplication>02u1U000001SAH1</customApplication>
+        <delayDays>1</delayDays>
+        <displayType>DockedComposer</displayType>
+        <endDate>2020-02-17</endDate>
+        <header>RC Info</header>
+        <isPublished>true</isPublished>
+        <masterLabel>testq</masterLabel>
+        <publishedByUser>0058A000002t0bp</publishedByUser>
+        <publishedDate>2020-02-24</publishedDate>
+        <shouldDisplayActionButton>true</shouldDisplayActionButton>
+        <shouldIgnoreGlobalDelay>true</shouldIgnoreGlobalDelay>
+        <startDate>2020-02-17</startDate>
+        <targetAppDeveloperName>LightningService</targetAppDeveloperName>
+        <targetAppNamespacePrefix>standard</targetAppNamespacePrefix>
+        <targetPageKey1>Case</targetPageKey1>
+        <targetPageKey2>view</targetPageKey2>
+        <targetPageType>standard__recordPage</targetPageType>
+        <timesToDisplay>1</timesToDisplay>
+        <title>RC Info</title>
+        <userAccess>Everyone</userAccess>
+        <userProfileAccess>Everyone</userProfileAccess>
+        <versionNumber>1</versionNumber>
+    </promptVersions>
+</Prompt>
