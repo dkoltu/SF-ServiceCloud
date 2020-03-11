@@ -5050,6 +5050,9 @@
         <layout>ZdTicketComment__c-Zendesk Ticket Comments Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>dktest__c-dktest Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>myobj__c-myobj Layout</layout>
     </layoutAssignments>
     <loginIpRanges>

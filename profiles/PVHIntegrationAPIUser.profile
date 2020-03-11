@@ -5271,6 +5271,9 @@
         <layout>ZdTicketComment__c-Zendesk Ticket Comments Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>dktest__c-dktest Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>myobj__c-myobj Layout</layout>
     </layoutAssignments>
     <objectPermissions>
@@ -5892,6 +5895,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>ZdTicketComment__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>dktest__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
